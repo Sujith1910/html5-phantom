@@ -13,7 +13,7 @@ let options = {
         if (path.split("/")[path.split("/").length-1] == 'index.html') {
             res.set('x-timestamp', Date.now())
             // res.set('Link', '<https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900>; rel="preload"; as="style"')
-            res.set('Link', '</images/pic12.jpg>; rel="preload";')
+            res.set('Link', '</images/pic04.jpg>; rel="preload"; importance="high"')
             // res.links({
                 // preload: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900; as=style",
                 // preload: "http://localhost:3000/images/pic12.jpg; importance=high"
