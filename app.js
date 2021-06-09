@@ -15,7 +15,8 @@ let options = {
             // res.set('Link', '<https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900>; rel="preload"; as="style"')
             // res.set('Link', '</js/main.js>; rel="preload"; </js/breakpoints.min.js>; rel="preload"')
 
-            res.set('Link', 'https://priority-hints-test.herokuapp.com/webfonts/fa-solid-900.woff2; rel="preload" as="font" importance="high"')
+            res.set('Link', 'https://priority-hints-test.herokuapp.com/webfonts/fa-solid-900.woff2; rel="preload" as="font" importance="high"; \
+            "</js/main.js>"; rel="preload" as="script" importance="high";')
 
 
             // res.set('Link', 'https://priority-hints-test.herokuapp.com/webfonts/fa-solid-900.woff2; rel="preload" as="font"; \
